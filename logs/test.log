@@ -1,0 +1,10 @@
+[2020-08-20T15:13:50.216] [ERROR] cheese - 错误日志
+[2020-08-20T15:13:50.499] [ERROR] cheese - 错误日志
+[2020-08-20T15:32:38.029] [ERROR] cheese - Error: next() called multiple times
+    at dispatch (/Users/fanxiaoying/Desktop/study/books/node_modules/koa/node_modules/koa-compose/index.js:36:45)
+    at /Users/fanxiaoying/Desktop/study/books/middleware/errorHandler.js:6:23
+    at async serve (/Users/fanxiaoying/Desktop/study/books/node_modules/koa-static/index.js:53:9)
+[2020-08-20T15:32:47.593] [ERROR] cheese - Error: next() called multiple times
+    at dispatch (/Users/fanxiaoying/Desktop/study/books/node_modules/koa/node_modules/koa-compose/index.js:36:45)
+    at /Users/fanxiaoying/Desktop/study/books/middleware/errorHandler.js:6:23
+    at async serve (/Users/fanxiaoying/Desktop/study/books/node_modules/koa-static/index.js:53:9)

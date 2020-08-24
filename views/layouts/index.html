@@ -1,0 +1,21 @@
+{% extends './layout.html' %}
+{% block title %} 首页 {% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="/styles/index.css">
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h1>[[data]]</h1>
+        <hr>
+        <div id="app-6">
+            <p>{{ message }}</p>
+            <input v-model="message">
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script src="/scripts/index.js"></script>
+{% endblock %}
